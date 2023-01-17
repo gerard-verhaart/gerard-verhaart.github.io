@@ -2,17 +2,17 @@ body {
   background-color: lightblue;
 }
 
-.main-container {
+#main-container {
   width: 80%;
   display: flex;
 }
 
-.banner {
+#banner {
   text-align: center;
 }
 
-.blog-body {
-  background-color: lightgreen !important;
+#blog-body {
+  background-color: lightgreen;
 }
 
 
