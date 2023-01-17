@@ -1,16 +1,25 @@
 
+
+
 body {
   background-color: lightblue;
 }
 
-h1 {
-  background-color: lightgreen;
-}
-
-img {
+.main-container {
   width: 80%;
+  text-align: center;
 }
 
 .banner {
   background-color: lightcoral;
 }
+
+.blog-heading {
+  background-color: lightgreen;
+}
+
+.blog-body {
+  background-color: beige;
+}
+
+
