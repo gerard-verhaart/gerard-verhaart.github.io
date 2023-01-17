@@ -1,6 +1,3 @@
-
-
-
 body {
   background-color: lightblue;
 }
@@ -8,18 +5,16 @@ body {
 .main-container {
   width: 80%;
   text-align: center;
+  display: flex;
+  margin: auto;
 }
 
 .banner {
   background-color: lightcoral;
 }
 
-.blog-heading {
-  background-color: lightgreen;
-}
-
 .blog-body {
-  background-color: beige;
+  background-color: lightcyan;
 }
 
 
