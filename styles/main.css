@@ -4,17 +4,15 @@ body {
 
 .main-container {
   width: 80%;
-  text-align: center;
   display: flex;
-  margin: auto;
 }
 
 .banner {
-  background-color: lightcoral;
+  text-align: center;
 }
 
 .blog-body {
-  background-color: lightcyan;
+  background-color: lightgreen !important;
 }
 
 
