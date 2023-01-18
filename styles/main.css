@@ -3,8 +3,8 @@ body {
 }
 
 #main-container {
-  width: 80%;
   display: flex;
+  text-align: center;
 }
 
 #banner {
@@ -13,6 +13,43 @@ body {
 
 #blog-body {
   background-color: lightgreen;
+  text-align: left;
+}
+
+@media only screen and (max-width: 320px) {
+  #main-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-color: lightcyan;
+  }
+
+  #main-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+
+  #main-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: lightorange;
+  }
+
+  #main-container {
+    width: 80%;
+  }
 }
 
 
