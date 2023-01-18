@@ -13,7 +13,8 @@ img {
 }
 
 #banner {
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 #blog-body {
