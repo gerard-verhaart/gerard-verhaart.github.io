@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Classes Vs IDs Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="banner"><img src="resources/NagoyaJouBanner.jpg" alt="Castle in Nagoya"></div>
+      <div id="blog-body">
+        <h1>Classes VS IDs Blog</h1>
+        <h2>Classes</h2>
+        <p>Classes are used when you want to standardise and apply formatting and styles to multiple elements at once.</p>
+        <p>Pros
+          <ul>
+            <li>Can apply to multiple elements</li>
+            <li>Can apply to multiple types of HTML element (eg p, div, h1, etc)</li>
+            <li>Can apply multiple classes to a single HTML element</li>
+            <li>Applies styles and formatting in order, so can use a hierarchy to overwrite older styles</li>
+          </ul>
+        </p>
+        <p>Cons
+          <ul>
+            <li>Can lead to higher complexity in large websites</li>
+            <li>Can be over-used</li>
+            <li>Common class names may get used accidentally or overridden by something else within your code, causing bugs</li>
+          </ul>
+        </p>
+        <h2>IDs</h2>
+        <p>IDs are used when you want to apply something to one unique HTML element.</p>
+        <p>Pros
+          <ul>
+            <li>Allows you to reference a single HTML element from anywhere in your website (including other pages)</li>
+            <li>Allows bookmarking of a place in your code</li>
+            <id>Allows you to style or select a specific element via CSS and JavaScript</id>
+          </ul>
+        </p>
+        <p>Cons
+          <ul>
+            <li>ID is case-sensitive</li>
+            <li>Each ID can only be used once in your HTML Document</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
