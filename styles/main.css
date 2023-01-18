@@ -14,7 +14,7 @@ img {
 
 #banner {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 #blog-body {
