@@ -41,6 +41,16 @@ h3 {
 
 /* Desktop size */
 
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: bisque;
+  }
+
+  .main-container {
+    width: 80%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   body {
     background-color: lightblue;
