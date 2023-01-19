@@ -6,14 +6,25 @@ img {
   width: 100%;
 }
 
-#main-container {
+h1, h2, p {
+  text-indent: 1em;
+}
+
+h3 {
+  text-align: right;
+  text-indent: 1em;
+}
+
+/* Classes . */
+
+.main-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
 
-#banner {
+.banner {
   margin: 25px 25px 25px 25px;
   text-align: left;
   /* height: auto;
@@ -22,48 +33,44 @@ img {
   justify-content: center; */
 }
 
-h1, h2, p {
-  text-indent: 1em;
-}
-
-#blog-body {
+.blog-body {
   background-color: lightgreen;
   text-align: left;
   margin: 25px 25px 25px 25px;
 }
 
-@media only screen and (max-width: 320px) {
-  #main-container {
-    width: 100%;
-  }
-}
+/* Desktop size */
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  body {
-    background-color: lightcyan;
-  }
-
-  #main-container {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   body {
     background-color: lightblue;
   }
 
-  #main-container {
+  .main-container {
     width: 80%;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+/* Tablet size */
+
+@media only screen and (max-width: 768px) {
   body {
-    background-color: lightorange;
+    background-color: lightcyan;
   }
 
-  #main-container {
-    width: 80%;
+  .main-container {
+    width: 100%;
+  }
+}
+
+/* Phone size */
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: beige;
+  }
+  
+  .main-container {
+    width: 100%;
   }
 }
