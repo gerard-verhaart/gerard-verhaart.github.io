@@ -10,9 +10,24 @@ h1, h2, p {
   text-indent: 1em;
 }
 
+h1 {
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium';
+}
+
 h3 {
   text-align: right;
   text-indent: 1em;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 5px 5px 5px;
+}
+
+table {
+  width:100%;
 }
 
 /* Classes . */
@@ -33,10 +48,23 @@ h3 {
   justify-content: center; */
 }
 
+/* .blog-header {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
 .blog-body {
   background-color: lightgreen;
   text-align: left;
   margin: 25px 25px 25px 25px;
+  padding: 10px 10px 50px 10px;
+}
+
+/* Home Screen Header ID */
+
+#home-header {
+  font-size: 60px;
+  font-family:'Times New Roman', Times, serif;
 }
 
 /* Desktop size */
