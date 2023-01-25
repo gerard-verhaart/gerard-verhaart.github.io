@@ -6,12 +6,12 @@ img {
   width: 100%;
 }
 
-h1, h2, p {
+p, h2 {
   text-indent: 1em;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Franklin Gothic Medium';
 }
 
@@ -48,10 +48,9 @@ table {
   justify-content: center; */
 }
 
-/* .blog-header {
-  display: flex;
-  flex-wrap: wrap;
-} */
+.blog-header {
+  display: table;
+}
 
 .blog-body {
   background-color: lightgreen;
@@ -67,18 +66,20 @@ table {
   font-family:'Times New Roman', Times, serif;
 }
 
-/* Desktop size */
+/* Large Desktop size */
 
 @media only screen and (min-width: 1200px) {
   body {
     background-color: bisque;
   }
 
-  .main-container {
-    width: 80%;
+  h1 {
+    font-size: 80 px;
+    text-indent: 1em;
   }
 }
 
+/* Removed this section as should be default
 @media only screen and (max-width: 1200px) {
   body {
     background-color: lightblue;
@@ -87,28 +88,34 @@ table {
   .main-container {
     width: 80%;
   }
-}
+
+  h1 {
+    font-size: large;
+  }
+} */
 
 /* Tablet size */
 
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: lightcyan;
+  h1, h3 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
   }
 
   .main-container {
     width: 100%;
+    background-color: lightcyan;
   }
 }
 
 /* Phone size */
 
 @media only screen and (max-width: 320px) {
-  body {
+  .main-container {
     background-color: beige;
   }
-  
-  .main-container {
-    width: 100%;
+
+  .blog-header {
+    display: flex;
   }
 }
