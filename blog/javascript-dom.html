@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Javascript Fundamentals</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <style>
+      table, th, td {
+        border: 0px;
+        padding: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="banner">
+        <img src="../resources/NagoyaJouBanner.jpg" alt="Castle in Nagoya" />
+      </div>
+      <div class="blog-body">
+        <table class="blog-header">
+          <tr>
+            <th><h1>Javascript Fundamentals</h1></th>
+            <th><h3>26 January 2023</h3></th>
+          </tr>
+        </table>
+        <h2>How does Javascript relate to HTML and CSS?</h2>
+        <p>
+          In my previous blog I mentioned that HTML was like an army of soldiers, and CSS was the general telling them how to line up and where to go.
+          Javascript is like a wizard - turning soldiers into animals, teleporting them great distances, or just giving them all silly hats at the same time.
+        </p>
+        <p>
+          Essentially, Javascript does all the funky extra stuff that CSS can't do, like making content on the page respond to buttons and run active logic and code on an active webpage.
+          It can also manipulate elements based on mouse events and keyboard inputs, play music and video, and basically allows to page to be more alive and responsive.
+        </p>
+        <h2>What is control flow?</h2>
+        <p>
+          Control Flow is how the code flows through the script from top to bottom. It has 3 major types:
+          <b>Sequential - </b>The default, start at the top and go down.
+          In the context of your daily routine, you will always wake up at the start of the day and go to sleep at the end.
+          <b>Selection - </b>Decisions and Branching, choose your path.
+          Every day, you will need to decide - do I go to work/school, or do I stay at home? These decisions are made by several factors, like if you are well and if it is the weekend or not.
+          <b>Repetition - </b>Looping and repeating bits of code multiple times.
+          Every day you need multiple meals - breakfast, lunch, dinner, and snacks. Each of these is a repeated mealtime with different inputs (ingredients, time, needs)
+        </p>
+        <p>
+          It can get far more complicated than that, but essentially we use Control Flow to look at the needs of our computer program and what we need to make it work logically.
+          There are also best-practice considerations - such as moving any code we use multiple times into functions, and avoiding hardcoding as much as possible in case we need to make adjustments further down the line.
+        </p>
+        <h2>What are loops?</h2>
+        <p>
+          Loops are good ways to handle having to run the same code multiple times with different inputs and outputs. You have the option of running a loop a predetermined amount of times (for loop), or to run it over each element in an array (foreach loop).
+          A real-life example of this is any task that needs to be repeated with different inputs.
+          For example, a fruit vendor may have 100 customers in a day. For each customer, he needs to take their money and give them fruit.
+          Because this task repeats it is best handled within a loop. If you were to hardcode every transaction 100 times your code would get extremely long and the possibility of human error would increase.
+        </p>
+        <h2>What is the DOM?</h2>
+        <p>
+          DOM stands for <b>Document Object Model</b>. It represents an upside-down tree where the Document Object is the very top level being displayed inside a Screen Object and everything else branches off it.
+          So, the HTML content is the next layer down, and this branches out to the head and body which then branches further to every element on the webpage.
+        </p>
+        <p>
+          What this means in practice is that we can find and select any element on a page simply based on where it is located within this tree (DOM).
+          This allows us to use Javascript and CSS to find and manipulate any element on the page based on this.
+          For example, if I inspect a webpage I can use the console to ask for the details of all elements belonging to a certain class.
+          I can then drill down on this information to find out what I am after, and select/manipulate any part of the webpage accordingly.
+          This is where DevTools comes in - by inspecting a webpage and understanding the DOM model, it helps you to write better code and cuts down on the amount of debugging required to get a webpage operational.
+        </p>
+        <h2>What's the difference in accessing data from arrays and objects?</h2>
+        <p>
+          An array is somewhat simpler in it's use and access - it contains an "array" of values which you access by referring to the access number of it in the array.
+        </p>
+        <p>
+          An object is somewhat different, in that each value inside it is paired with a property name instead of an index.
+          So, you need to understand the data stored inside the object and send it a valid name to output the value for that name.
+          For example, a car can be a Red Ferrari. To get the car color we would call car.color and it would return "Red".
+          Objects can also have Methods which are essentially child functions.
+        </p>
+        <h2>What are functions?</h2>
+        <p>
+          A function is a block of code that can accept inputs and can provide outputs in order to perform a particular task.
+          Normally, this is used for code that you know will need to be used multiple times within your webpage,script or website.
+        </p>
+        <p>
+          They are helpful because they avoid duplicated code, and help to stick to good Object Oriented programming practices.
+          The advantage of calling the same blocks of code multiple times is that it's easy to expand your program when you're re-using pre-defined parts of code.
+          It also helps with maintenance - if you make a mistake on some of that code or need to update it, you only have to change it once (inside the function) instead of multiple places within the code.
+          This is especially useful the larger your website gets, as multiple web pages might be referring to the same function.
+        </p>
+        <br />
+        <p><a href="../index.html"><h2 font-weight: bold;>Back to Home</h2></a></p>
+      </div>
+    </div>
+  </body>
+</html>
