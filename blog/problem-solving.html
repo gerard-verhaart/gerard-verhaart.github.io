@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Problem Solving</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <style>
+      table, th, td {
+        border: 0px;
+        padding: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="banner">
+        <img src="../resources/NagoyaJouBanner.jpg" alt="Castle in Nagoya" />
+      </div>
+      <div class="blog-body">
+        <table class="blog-header">
+          <tr>
+            <th><h1>Problem Solving</h1></th>
+            <th><h3>01 February 2023</h3></th>
+          </tr>
+        </table>
+        <h2>My Time stuck on a Simple Problem~</h2>
+        <p>
+          Once upon a time I was stuck on a simple problem. I had code that ran through a group of items to try and find if Scooby was hiding in the object.
+        </p>
+        <p>
+          However, Scooby was never being found. I decided to just run the bit of code that had scooby in it, and made sure for each loop of code it printed all of the values of the hidden property to the console screen.
+        </p>
+        <p>
+          Sure enough, it turned out the loop was not running. All of the other calls would show the correct details, but the loop never looped.
+        </p>
+        <p>
+          Why did the loop not loop? It turned out that I had forgotten to declare the variable being used as the loop iterator. Once I compared my loop with one that worked, the difference became evident.
+        </p>
+        <p>
+          So, I made the change and ran it again - all the loops ran and outputted all the variables to the console. I was then able to remove the console logging, document, and save my work.
+        </p>
+        <p>
+          How did this make me feel? Pleased that I had found the solution without having spent too long on it, but also more wary of Javascript. This language takes no prisoners!
+        </p>
+        <p>
+          It also taught me that even if your code doesn't throw an error, it doesn't mean your code works. Testing is vital!
+        </p>
+        <br />
+        <h2>My Elegant Solution to a Problem</h2>
+        <p>
+          I was finding that I was writing a particular property object multiple times within the same function.
+        </p>
+        <p>
+          It made the code look messy and complex, and it was complex enough that I could have made spelling mistakes easily.
+        </p>
+        <p>
+          I had the idea that I could declare a variable and use that to shorten it substantially - to see if this was possible I scoped it out and did a test via the console.
+        </p>
+        <p>
+          Everything looked good, so I declared it as a new variable. This worked really well and the code became more readable.
+        </p>
+        <p>
+          Throughout this process it felt like a journey of discovery - going somewhere new and seeing if something was possible
+        </p>
+        <p>
+          I learned that code spread over more lines with declared variables is easier to read then trying to cram all the code into the same line.
+        </p>
+        <br />
+        <h2>Reflection on Problem Solving Techniques</h2>
+        <table>
+          <tr>
+            <th>Pseudocode</th>
+            <th>Trying Something</th>
+            <th>Rubber Ducky Method</th>
+            <th>Reading Error Messages</th>
+            <th>Console.logging</th>
+            <th>Googling</th>
+            <th>Asking Peers for Help</th>
+            <th>Asking Coaches for Help</th>
+            <th>Improving Processes with Reflection</th>
+          </tr>
+          <tr>
+            <td>I try to use comments as Pseudocode - they don't do the code but they should follow what I'm trying to achieve.</td>
+            <td>Normally my first approach to a new problem is to put in what I think my solution could be, then see if it works. If it fails I can use the error code to point me in the right direction.</td>
+            <td>Trying to explain my code to an inanimate object - I've found that fully understanding the problem is the key to a good solution. Talking over the problem sometimes throws up a issue or a new angle you hadn't throught of.</td>
+            <td>Error Messages are something I'm still working on understanding - I love it when it gives me a line number to work on, but sometimes the way to get the best information from the error messages is to write them yourself.</td>
+            <td>This is one of the biggest helps to troubleshooting. If in doubt about parts of your code that are working, output every variable to the console and see what is happening.</td>
+            <td>I constantly Google if I'm not 100% sure on something - using trusted sources I can find the best practice ways to implement new methods and see other peoples solutions.</td>
+            <td>Sometimes when you are stuck on something, you're not the only one with this issue. Other people may also have had the same issue and posted it on Discord. Or, by posting your issue another student will be able to give you a hint in the right direction</td>
+            <td>Asking coaches for help can give you a much more tailored solution at times - however you need to keep in mind that peer feedback may be faster and point you in the right direction more quickly.</td>
+            <td>After the work I've done over the last few sprints, there are solutions and best practice methods that I know now that may help refactor my earlier code. Reflecting on this and fixing old code is how we grow.</td>
+          </tr>
+        </table>
+        <br />
+        <p><a href="../index.html"><h2 font-weight: bold;>Back to Home</h2></a></p>
+      </div>
+    </div>
+  </body>
+</html>
