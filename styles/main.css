@@ -110,12 +110,45 @@ table {
 
 /* Phone size */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .main-container {
-    background-color: beige;
+    background-color: skyblue;
+  }
+
+  h1, h3 {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 0px;
+  }
+
+  h2 {
+    font-size: 10px;
+    text-indent: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 0px;
   }
 
   .blog-header {
     display: flex;
+  }
+
+  table {
+    display: flex;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #home-header {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 0px;
   }
 }
